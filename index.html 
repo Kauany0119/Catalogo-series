@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo de Séries - Netflix</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Catálogo de Séries da Netflix</h1>
+  </header>
+  <main>
+    <section class="catalog">
+      <article class="serie">
+        <img src="images/stranger-things.jpg" alt="Stranger Things">
+        <h2>Stranger Things</h2>
+        <p>Um grupo de crianças enfrenta eventos sobrenaturais e conspirações governamentais em Hawkins.</p>
+      </article>
+      <article class="serie">
+        <img src="images/the-crown.jpg" alt="The Crown">
+        <h2>The Crown</h2>
+        <p>A vida da Rainha Elizabeth II e os desafios políticos e pessoais ao longo de seu reinado.</p>
+      </article>
+      <article class="serie">
+        <img src="images/dark.jpg" alt="Dark">
+        <h2>Dark</h2>
+        <p>Um mistério de viagens no tempo que revela segredos sombrios de uma pequena cidade alemã.</p>
+      </article>
+      <article class="serie">
+        <img src="images/black-mirror.jpg" alt="Black Mirror">
+        <h2>Black Mirror</h2>
+        <p>Uma antologia que explora os impactos perturbadores da tecnologia na sociedade.</p>
+      </article>
+      <article class="serie">
+        <img src="images/lupin.jpg" alt="Lupin">
+        <h2>Lupin</h2>
+        <p>Assane Diop se inspira no famoso ladrão Arsène Lupin para se vingar de uma família rica.</p>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Netflix</p>
+  </footer>
+</body>
+</html>

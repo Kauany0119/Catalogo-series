@@ -1,0 +1,64 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #141414;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #e50914;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+/* Catálogo */
+.catalog {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.serie {
+  margin: 15px;
+  background: #333;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 200px;
+  text-align: center;
+}
+
+.serie img {
+  width: 100%;
+  height: auto;
+}
+
+.serie h2 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.serie p {
+  padding: 0 10px 15px;
+  font-size: 0.9rem;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #222;
+}
